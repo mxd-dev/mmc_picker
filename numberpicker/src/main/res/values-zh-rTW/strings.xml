@@ -1,0 +1,24 @@
+<resources>
+    <string name="module_name">NumberPicker</string>
+
+    <!-- number picker string -->
+    <string name="owl_alert_setting_point">.</string>
+
+    <string name="date_picker_year">年</string>
+    <string name="date_picker_month">月</string>
+    <string name="date_picker_day">日</string>
+
+    <string name="time_picker_hour">時</string>
+    <string name="time_picker_minute">分</string>
+    <string-array name="time_picker_weekday">
+        <item>星期日</item>
+        <item>星期壹</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </string-array>
+    <string name="title_h">上限溫度</string>
+    <string name="title_l">下限溫度</string>
+</resources>

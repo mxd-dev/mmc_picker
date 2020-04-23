@@ -1,0 +1,26 @@
+<resources>
+    <string name="module_name">NumberPicker</string>
+
+    <!-- number picker string -->
+    <string name="owl_alert_setting_point">.</string>
+    <string name="unit_ascii_c" translatable="false">℃</string>
+    <string name="unit_ascii_f" translatable="false">℉</string>
+
+    <string name="date_picker_year">Year</string>
+    <string name="date_picker_month">Month</string>
+    <string name="date_picker_day">Day</string>
+
+    <string name="time_picker_hour">Hour</string>
+    <string name="time_picker_minute">Minute</string>
+    <string-array name="time_picker_weekday">
+        <item>SUN</item>
+        <item>MON</item>
+        <item>TUE</item>
+        <item>WED</item>
+        <item>THU</item>
+        <item>FRI</item>
+        <item>SAT</item>
+    </string-array>
+    <string name="title_h">Max. temp</string>
+    <string name="title_l">Min. temp</string>
+</resources>

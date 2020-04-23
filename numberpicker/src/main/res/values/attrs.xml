@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Number_Picker">
+        <attr name="LableText" format="string"/>
+        <attr name="LableTextSize" format="dimension" />
+        <attr name="LableLeftMargin" format="dimension" />
+        <attr name="TextSizeMax" format="dimension" />
+        <attr name="TextSizeMin" format="dimension"/>
+        <attr name="SelectedTextColor" format="color" />
+        <attr name="PaddingBottom" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="AlertTemp_Picker">
+        <attr name="isUnitF" format="boolean"/>
+        <attr name="AlertHigh" format="boolean"/>
+    </declare-styleable>
+</resources>

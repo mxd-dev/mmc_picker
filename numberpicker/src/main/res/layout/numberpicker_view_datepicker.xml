@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/picker_height">
+
+    <LinearLayout
+        android:id="@+id/picker_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:divider="@drawable/number_divider_ver"
+        android:showDividers="middle"
+        >
+
+        <com.mmc.miaomiaoce.iot.numberpicker.NumberPicker
+            android:id="@+id/first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:TextSizeMax="15dp"
+            app:TextSizeMin="12dp"
+            app:LableTextSize="9dp"
+            app:LableLeftMargin="6dp"/>
+
+        <com.mmc.miaomiaoce.iot.numberpicker.NumberPicker
+            android:id="@+id/second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:TextSizeMax="15dp"
+            app:TextSizeMin="12dp"
+            app:LableTextSize="9dp"
+            app:LableLeftMargin="6dp"/>
+
+        <com.mmc.miaomiaoce.iot.numberpicker.NumberPicker
+            android:id="@+id/third"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:TextSizeMax="15dp"
+            app:TextSizeMin="12dp"
+            app:LableTextSize="9dp"
+            app:LableLeftMargin="6dp"/>
+
+    <!--<com.mmc.miaomiaoce.mmc.myapplication.NumberPicker
+        android:id="@+id/unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:gravity="top|left"
+        app:TextSizeMax="10"/>-->
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="@dimen/picker_alert_divider_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/number_divider_hor"/>
+
+    <ImageView
+        android:layout_width="@dimen/picker_alert_divider_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/number_divider_hor"/>
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- high low alert picker -->
+    <dimen name="picker_alert_point_padding">12dp</dimen>
+    <dimen name="picker_alert_left_margin">123dp</dimen>
+    <dimen name="picker_alert_bar_width">9dp</dimen>
+    <dimen name="picker_alert_divider_width">120dp</dimen>
+    <dimen name="picker_alert_lable_left_margin">14dp</dimen>
+    <dimen name="picker_alert_text_max">40dp</dimen>
+    <dimen name="picker_alert_text_min">19dp</dimen>
+    <dimen name="picker_alert_top_margin">103dp</dimen>
+    <dimen name="picker_lable_size">21sp</dimen>
+    <!-- time picker -->
+    <dimen name="picker_time_lable_left_margin">6dp</dimen>
+
+    <!-- number picker-->
+    <dimen name="picker_height">175dp</dimen>
+    <dimen name="picker_middle_item_height">35dp</dimen>
+    <dimen name="picker_middle_item_heightX2">65dp</dimen>
+</resources>
