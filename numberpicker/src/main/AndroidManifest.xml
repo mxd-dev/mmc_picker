@@ -2,13 +2,4 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.mmc.miaomiaoce.iot.numberpicker">
 
-    <application
-        android:allowBackup="false"
-        tools:replace="android:label"
-        android:label="@string/module_name"
-        android:icon="@mipmap/ic_launcher"
-        android:supportsRtl="true">
-
-    </application>
-
 </manifest>
